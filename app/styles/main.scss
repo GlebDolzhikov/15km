@@ -1,0 +1,409 @@
+#map {
+	width:100%; 
+	height:100%
+}
+
+.container{
+position:absolute;
+top:30%;
+left: 50%;
+margin-left:-150px;
+	
+}
+@mixin centerer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.wrapClock{
+    top: 10%;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    width: 300px;
+    background-color: #333333;
+    z-index: 2;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.km{
+  z-index: 2;
+    font-size: 78px;
+    position: absolute;
+    /* float: left; */
+    right: 34px;
+    top: 6px;
+    color: #CCCCCC;
+    background-color: #323232;
+}
+
+
+
+.box {
+	position: relative;
+	
+	height: 150px;
+	width: 400px;
+	background-color: white;
+	opacity: 0.6;
+	z-index: 2;
+	border-radius: 20px;
+	display: none;
+	cursor: pointer;
+}
+
+.close{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+
+  z-index: 3;
+  border-radius: 100%;
+  margin-top: -19px;
+
+  margin-left: 370px;
+	background-image: url('../images/close-icon.png');
+	background-size: 50px;
+	cursor: pointer;
+
+}
+
+
+
+
+.active {
+	display: block;
+}
+
+#counter {
+	position: relative;
+    margin-top: 10px;
+	height: 100px;
+	width: 400px;
+	background-color: white;
+	opacity: 0.6;
+	z-index: 2;
+	border-radius: 20px;
+}
+
+#counter div {
+	margin: auto;
+	  width: 400px;
+}
+
+#counter div> p{
+display: inline;
+}
+#counter div >div{
+display: inline;
+}
+
+#counter img {
+	width: 50px;
+	margin-top:10px;
+	margin-left: 63px;
+	float: left;
+	position: relative;
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+#counter img:hover {
+opacity: 1;
+}
+
+ p,div {
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Comic Sans MS'
+}
+.box h2 {
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Comic Sans MS'
+}
+
+.phrase p {
+display: none;
+}
+.phrase img {
+	height: 70px;
+	  display: block;
+  margin: auto;
+  margin-top: -22px;
+}
+
+#btn{ 
+cursor: pointer;}
+
+.info div{
+opacity: 0.7;
+width: 100px;
+height: 100px;
+z-index: 5;
+position:fixed;
+margin: 10px;
+cursor: pointer;
+}
+
+.info div:nth-child(1){
+right: 0;
+background-image: url('../images/man459.png');	
+background-size: cover;
+
+}
+
+.info div:nth-child(2){
+left: 0;
+background-image: url('../images/Running Icon.png');
+	background-size: cover;
+top:0;
+}
+
+.info div:nth-child(3){
+bottom: 20px;
+left: 0;
+cursor: pointer;
+background-image: url('../images/target.png');
+background-size: cover;
+}
+
+.info div:nth-child(4){
+bottom:60px;
+padding-bottom: 0;
+right: 0;
+cursor: pointer;
+background-image: url('../images/eco45.png');
+	background-size: cover;
+}
+
+
+.info div:hover{
+	opacity: 1
+}
+
+.section, .slide {
+	background-position:center, top;
+	background-size: cover;
+}
+
+#slide1{
+	background-image: url('../images/map.jpg');
+}
+
+#slide2 {
+	background-size: cover;
+	background-image: url('../images/IMG_0808.jpg');
+	
+	
+}
+
+
+
+#slide3 {
+	background-image: url('../images/123.jpg');
+	background-size: cover;
+	
+
+}
+/*
+#slide4{
+	background-image: url('../images/Volunteer.jpg');
+	background-size: cover;
+
+}*/
+#slide4{
+	background-image: url('../images/abbey-road.jpg');
+	background-size: cover;
+
+}
+
+
+#section2 {
+	
+	background-size: cover;
+}
+#s2slide1{
+background-image: url('../images/88169763.jpg');
+background-size: cover;
+}
+
+#s2slide2{
+background-image: url('../images/0_840a9_a76b03eb_XXL.jpg');
+background-size: cover;
+}
+
+#s2slide3 {
+background-image: url('../images/73142230.jpg');
+background-size: cover;
+}
+
+#section3 {
+	background-image: url('../images/106054296.jpg');
+	background-size: cover;
+}
+
+#section4 {
+	background-image: url('../images/doroga.jpg');
+	background-size: cover;
+}
+
+#section5 {
+	background-image: url('../images/64209279.jpg');
+	background-size: cover;
+}
+
+
+
+#section6 {
+	background-image: url('../images/Centralnyi-vhod-v-park-Kioto.jpg');
+	background-size: cover;
+}
+#section7 {
+	/*background-image: url('http://static.panoramio.com/photos/large/80882512.jpg');*/
+	background-image: url('../images/0_8a210_448003af_orig.jpg');
+	background-size: cover;
+}
+#section8 {
+	background-image: url('../images/50147826.jpg');
+	background-size: cover;
+}
+
+
+        
+        .my-button {
+            background-image: url('http://cdn.flaticon.com/png/256/37.png');
+			background-size: cover;
+            display: block;
+          
+            cursor: pointer;
+            opacity: 0.7;
+	width: 100px;
+height: 100px;
+
+           }
+           .my-button:hover {
+           	opacity:1;
+           }
+
+
+.tooltip {
+	position: relative;
+	}
+.tooltip em {
+	display: none;
+	}
+.tooltip:hover em {
+	font-style: normal;
+	display: block;
+	position: absolute;
+ 	background: #000;
+	color: #FFF;
+	padding: 3px 5px;
+	bottom: 22px;
+	right: 0;
+	box-shadow: 0 0 5px #ccc;
+ 	border-radius: 5px;
+	-webkit-border-radius: 5px;
+ 	-moz-border-radius: 5px;
+	-webkit-box-shadow: 0 0 5px #ccc;
+	-moz-box-shadow: 0 0 5px #ccc;
+}
+.tooltip:hover em i {
+	position: absolute;
+	bottom: -7px;
+	right: 5px;
+	border-top: 7px solid #000;
+	border-left: 7px solid transparent;
+	display: block;
+}
+
+
+@media (max-width: 600px) {
+	
+	.box {
+	height: 100px;
+	width: 200px;
+}
+
+#counter {
+	height: 70px;
+width: 200px;
+}
+
+#counter div {
+	margin: auto;
+	  width: 200px;
+}
+
+ p ,div {
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Comic Sans MS'
+}
+ 
+ h2,h3 {
+	text-align: center;
+	font-size: 17px;
+	font-family: 'Comic Sans MS'
+}
+
+.phrase img {
+	height: 50px;
+	  display: block;
+  margin: auto;
+  margin-top: -22px;
+}
+
+
+.info div{
+
+	width: 50px;
+height: 50px;
+z-index: 5;
+position:fixed;
+opacity: 0.7;
+margin: 5px;
+cursor: pointer;
+}
+
+
+#counter img {
+	width: 25px;
+	margin-top:10px;
+	margin-left: 33px;
+	float: left;
+	position: relative;
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+
+.close{
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+
+  z-index: 3;
+  border-radius: 100%;
+  margin-top: -19px;
+
+  margin-left: 175px;
+	background-image: url('../images/close-icon.png');
+	background-size: 25px;
+	cursor: pointer;
+
+}
+
+.container{
+
+margin-left:-100px;
+}
+
+
+}
+
+

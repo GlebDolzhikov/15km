@@ -1,0 +1,29 @@
+{
+  "name": "new-one",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.3",
+    "sweetalert": "~1.1.0",
+    "jquery-ui": "jqueryui#~1.11.4",
+    "fullpage.js": "fullpage#~2.7.3",
+    "geolocation-marker": "*",
+    "flipclock": "~0.7.7"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    },
+    "geolocation-marker": {
+      "main": "dist/geolocationmarker-compiled.js"
+    }
+  },
+  "devDependencies": {
+    "chai": "~3.3.0",
+    "mocha": "~2.3.3"
+  }
+}
